@@ -52,34 +52,34 @@ i {
 
 .dog2 {
     grid-area: dog2;
-    background: url("images/corgie_2.jpg");
+    background: url("corgie_2.jpg");
 }
 
 .dog6 {
     grid-area: dog6;
     min-height: 40rem;
-    background-image: url("images/dog_6.jpg");
+    background-image: url("dog_6.jpg");
     background-position: center;
 }
 
 .dog5 {
     grid-area: dog5;
-    background-image: url("images/golden-retriever_5.jpg");
+    background-image: url("golden-retriever_5.jpg");
 }
 
 .dog4 {
     grid-area: dog4;
-    background-image: url("images/gentleman_4.jpg");
+    background-image: url("gentleman_4.jpg");
 }
 
 .dog1 {
     grid-area: dog1;
-    background-image: url("images/small_dog1.jpg");
+    background-image: url("small_dog1.jpg");
 }
 
 .dog3 {
     grid-area: dog3;
-    background-image: url("images/wink_3.jpg");
+    background-image: url("wink_3.jpg");
 }
 
 /* SCREEN SIZE 960 */
