@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+section {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section img {
+    background-position: center;
+    background-size: cover;
+    height:  41.5rem;
+    width: 100%;
+    filter: blur(5px);
+}
+
+section a {
+    position: absolute;
+}
+
+.btn {
+    padding: 3rem;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    outline: none;
+}
+
+.btn:hover, .btn:active {
+    background-color: transparent;
+    border: 8px double white;
+    color: white;
+    outline: none;
+}

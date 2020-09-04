@@ -1,0 +1,33 @@
+.jumbotron {
+    background-color:#f4f4f4;
+}
+.jumbotron img {
+    height: 40rem;
+    width: 100%;
+    transition: all 500ms;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.gridLayout {
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.gridLayout img {
+    height: 20rem;
+    width: 100%;
+}
+
+@media (max-width: 1006px) {
+    .gridLayout {
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    
+}
